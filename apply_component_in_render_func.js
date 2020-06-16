@@ -20,7 +20,7 @@ class ProfilePage extends React.Component {
 // NavBar.js
 // import React from 'react';
 
-// class NavBar extends React.Component {
+// export class NavBar extends React.Component {
 //   render() {
 //     const pages = ['home', 'blog', 'pics', 'bio', 'art', 'shop', 'about', 'contact'];
 //     const navLinks = pages.map(page => {
@@ -34,3 +34,4 @@ class ProfilePage extends React.Component {
 //     return <nav>{navLinks}</nav>;
 //   }
 // }
+
