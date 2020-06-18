@@ -8,6 +8,11 @@ export class List extends React.Component {
     }
     // pluralizes title
 
+    // alt method
+    // if (React.Children.count(this.props.children) > 1) {
+    // 	titleText += 's';
+    // }
+
     return (
       <div>
         <h1>{titleText}</h1>
