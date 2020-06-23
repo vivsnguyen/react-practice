@@ -11,6 +11,8 @@ export class Child extends React.Component {
     this.props.onChange(name);
   }
 
+  // event handler, event object?
+
   render() {
     return (
       <div>
