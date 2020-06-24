@@ -11,3 +11,6 @@ export class MessageDisplayer extends React.Component {
 MessageDisplayer.propTypes = {
   message: React.PropTypes.string
 };
+
+// The value of each property in propTypes should fit this pattern:
+// React.PropTypes.expected-data-type-goes-here
